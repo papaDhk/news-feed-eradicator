@@ -1,4 +1,6 @@
 #nfe-container {
+	/*Do not display quotes*/
+	display: none;
 	font-family: sans-serif;
 	font-weight: normal;
 	line-height: 1.4;

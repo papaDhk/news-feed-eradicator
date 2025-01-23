@@ -8,7 +8,14 @@ html:not([data-nfe-enabled='false'])
 }
 
 /* LinkedIn trending news section */
-aside.scaffold-layout__aside > div:nth-child(2) {
+aside.scaffold-layout__aside {
+	opacity: 0 !important;
+	pointer-events: none !important;
+	height: 0 !important;
+}
+
+/* Post section */
+.share-box-feed-entry__closed-share-box {
 	opacity: 0 !important;
 	pointer-events: none !important;
 	height: 0 !important;
